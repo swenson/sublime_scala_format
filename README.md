@@ -1,7 +1,7 @@
 sublime_scala_format
 ====================
 
-Format Scala files on save in Sublime Text 2.
+Format Scala files on save in Sublime Text 3.
 
 Install
 -------
