@@ -1,17 +1,19 @@
 sublime_scala_format
 ====================
 
-Format Scala files on save in Sublime Text 3.
+Format Scala files on save in Sublime Text 2 or 3.
 
 Install
 -------
 
 * Download scalariform from https://github.com/downloads/mdr/scalariform/scalariform.jar (or from https://github.com/mdr/scalariform).
-* Go to Tools -> New Plugin
-* Copy the contents of the Python file in this repo into that new plugin
-* Change the SCALARIFORM_JAR file location at the top of the Python to wherever you downloaded the scalariform.jar to.
-* Change the SCALARIFORM_OPTIONS to whatever options you like.
-* Save it as whatever you want.
+* Install this plugin from package control
+* Set your user preferences to point to the jar, or any scalariform options you might like:
+
+```
+	"scalariform_jar": "/Users/swenson/Downloads/scalariform.jar",
+	"scalariform_options": "-indentSpaces=2 +alignParameters +doubleIndentClassDeclaration",
+```
 * Enjoy
 
 License
